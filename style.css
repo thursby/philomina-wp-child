@@ -1,0 +1,82 @@
+/*
+ Theme Name: Philomina Child
+ Theme URI: http://www.sherriefindsfashion.com
+ Description: Fixes some things in Philomina
+ Author: Wayne Thursby
+ Author URI: http://www.1srq.com
+ Template: philomina
+ Version: 1.0.0
+ License: MiT
+ License URI: https://opensource.org/licenses/MIT
+ Tags: child
+ Text Domain: philomina-child */
+
+#main .block .inside_block button.continue {
+    font-style: normal;
+    color: #000;
+    letter-spacing: 0.1em;
+    width: auto;
+    padding: 10px 40px;
+    opacity: 0;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fcffa4;
+    padding: 10px 20px;
+    margin: 20px auto 0;
+    border-radius: 40px;
+    transition: opacity 0.2s linear 0.3s;
+    -webkit-transition: opacity 0.2s linear 0.3s;
+    transition: background 0.2s linear 0s;
+    -webkit-transition: background 0.2s linear 0s;
+}
+#main .block:hover .inside_block button.continue {
+    opacity: 1;
+}
+#main .block:hover .inside_block button.continue:hover {
+    background-color: #fff;
+}
+#footer-sidebar {
+    display: block;
+}
+#footer-sidebar1 {
+    float: left;
+    width: 340px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#footer-sidebar2 {
+    float: left;
+    width: 340px;
+    margin-right: 5px;
+}
+#footer-sidebar3 {
+    float: left;
+    width: 340px;
+}
+#bottomline {
+    height: 48px;
+}
+
+
+#footer-sidebar {
+display:block;
+}
+
+#footer-sidebar1 {
+float: left;
+width: 340px;
+margin-left:5px;
+margin-right:5px;
+}
+
+#footer-sidebar2 {
+float: left;
+width: 340px;
+margin-right:5px;
+}
+
+#footer-sidebar3 {
+float: left;
+width: 340px;
+}
